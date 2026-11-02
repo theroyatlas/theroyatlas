@@ -1,7 +1,5 @@
 name: Sync Roy Identity OS
 on:
-  schedule:
-    - cron: '35 * * * *'
   workflow_dispatch:
     inputs:
       source_commit:
